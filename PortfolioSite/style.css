@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&dispaly=swap');
+* {
+    font-family: 'Hind', sans-serif;
+}
+.bannerBgImage{
+    height:100vh;
+    background:url("Martin.jpg");
+    
+    background-size:cover;
+    position:relative;
+}
+.bannerText{
+    text-align:center;
+    position:absolute;
+    top:32%;
+    left:30%;
+    transform:translae(-50%,-50%);
+    color:white;
+}
+.bannertitle{
+    font-size:4rem;
+}
+.bannerDesc{
+    font-size:2rem;
+}
+.card{
+    cursor:pointer;
+}
+.card:hover{
+    background-color: palevioletred;
+    border:2px solid yellowgreen;
+}
+.bIcon{
+    width:100%;
+    text-align:center;
+    font-size:40px;
+}
+.img-fluid:hover{
+    border:2px solid;
+}
+.card-img-top{
+    height:50vh;
+}
